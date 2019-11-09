@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap/css/font-awesome-5.8.1.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/mdb.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="CLEAR%20TITLE.js">
+    <title>Easy Search</title>
+</head>
+<body>
+
+<!------------------NAVBAR SECTION---------->
+
+
+<nav class="navbar navbar-expand-md navbar-dark blue-gradient fixed-top">
+    <button class="navbar-toggler" data-toggle="collapse"  data-target="#collapse-target">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <a href="#" class="navbar-brand text-dark"> <i class="fas fa-home dark-ic"></i> Easy Search</a>
+<div class="collapse navbar-collapse" id="collapse-target">
+    <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+            <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Buy</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Rent</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Sell</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Tools&services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">What'new</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Help</a>
+        </li>
+
+    </ul>
+</div>
+<!--------LOGIN BUTTON AND SIGNUP BUTTON------->
+                                    <!---------buttons------------->
+
+    <a href="#" class="text-white" data-toggle="modal" data-target="#login-modal"> <i class="far fa-user"> LOGIN</i> </a>
+</nav>
+
+
+<!-------MODAL ------------------>
+<div class="modal" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="LOGIN" aria-hidden="true">
+    <div class=" modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h5 class="modal-title">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="username" class="col-form-label">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter your Username">
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="col-form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-mdb-color">Login</button>
+                <button type="button" class="btn btn-cyan" data-dismiss="modal">close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------------------Sign up modal---------------------------------------------------
+
+<div class="modal" role="dialog" id="signup-modal">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header align-content-center">
+        <h5 class="modal-title">SignUp</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form class="form-group">
+              <label class="col-form-label">Name</label>
+            <input class="form-control" type="text" placeholder="Enter your Username">
+            <label class="col-form-label">Password</label>
+            <input class="form-control" type="password" placeholder="Password">
+            <label class="col-form-label">Conform Password</label>
+            <input class="form-control" type="password" placeholder="Conform Password">
+            </form>
+        </div>
+        <div class="modal-footer">
+            <h5>Or SingUp Using </h5><br>
+            <a href="https://www.facebook.com/" target="_blank" class="icon btn btn-primary btn-sm" type="button"><i class="fab fa-3x fa-facebook-square"></i></a>
+            <a href="https://www.gmail.com/" target="_blank" class="icon btn btn-primary btn-sm" type="button"><i class="far fa-envelope">Gmail</i></a>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-----------------carousel section------------------
+
+   <div class="container-fluid">
+       <div id="propertyslides" class="carousel slideOutLeft" data-ride="carousel">
+           <div class="carousel-inner">
+               <div class="carousel-item active">
+                   <img src="real%20eastate%20pics/real-estate-rent-concept-old-key-tag-rent.jpg" class="d-block w-100">
+                   <div class="carousel-caption">
+                       <h4>Rent a beautiful house</h4>
+                   </div>
+               </div>
+
+               <div class="carousel-item">
+                   <img src="real%20eastate%20pics/real-estate-rent-concept-old-key-tag-rent.jpg" class="d-block w-100">
+                   <div class="carousel-caption">
+                       <h4>Clear Title</h4>
+
+                   </div>
+               </div>
+
+               <div class="carousel-item">
+                   <img src="real%20eastate%20pics/real-estate-rent-concept-old-key-tag-146913776.jpg" class="d-block w-100">
+                   <div class="carousel-caption">
+                       <h4>Choose your best property</h4>
+                   </div>
+               </div>
+
+               <div class="carousel-item">
+                   <img src="real%20eastate%20pics/real-estate-lease-concept-old-key-tag-lease.jpg" class="d-block w-100">
+                   <div class="carousel-caption">
+                       <h4>Lease the Property</h4>
+                   </div>
+               </div>
+
+           </div>
+           <a href="#propertyslides" class="carousel-control-prev" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon"></span>
+               <span class="sr-only">Previous</span>
+           </a>
+           <a href="#propertyslides" class="carousel-control-next" role="button" data-slide="next">
+               <span class="carousel-control-next-icon"></span>
+               <span class="sr-only">Next</span>
+           </a>
+       </div>
+   </div>
+
+<!-----------------------------Main Section------------------->
+<div class="container-fluid">
+    <div class="view">
+        <img src="https://images1.forrent.com/i2/aVpu0kCZRxBEZOtQ2LZLq9r3EETvYhAcqqqY80px0Tw/112/image.jpg"  class="img-fluid" alt="Responsive">
+        <div class="mask flex-center waves-effect waves-light pattern-5">
+            <div class="m-auto">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <button id="allapt-btn" type="button" class="list btn btn-cyan btn-sm m-0 px-3 py-1 z-depth-0 font-weight-bolder text-white font-italic">ALL APARTMENTS</button>
+                </div>
+                    <input class="form-control" type="text" id="search" placeholder="search your desire location here...">
+                <div class="input-group-append">
+                    <span class="btn-cyan btn btn-sm m-0 px-3 py-2 z-depth-0"><i class="fa-2x fas fa-search"></i></span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------------data-------------------------------------->
+
+<div class="mt-sm-2 mt-md-5">
+    <div>
+        <h4>Easy search has found <span id="count"></span> Apartments for you.</h4>
+    </div>
+    <table class="m-auto">
+        <thead>
+        <tr>
+            <th>S NO</th>
+            <th>Street Name</th>
+            <th>Street Address</th>
+            <th>Contact Number</th>
+        </tr>
+        </thead>
+        <tbody id="table-body">
+
+        </tbody>
+    </table>
+</div>
+
+
+<!---------------------cards------------------------->
+
+<div class="container-fluid ">
+    <div class="row ">
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/sri%20sai.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sri sai apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------second row of cards-------------->
+
+<div class="container-fluid ">
+    <div class="row ">
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/sri%20sai.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sri sai apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 ">
+            <div class="card">
+                <div class="card-img-top">
+                    <img src="real%20eastate%20pics/card%20img.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="card-body">
+                    <h5>Sabari apprtments</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, est, molestiae. Accusantium adipisci alias assumenda atque, cum fugit qui. Blanditiis, consequuntur deserunt ducimus eius, fugit itaque numquam odit perspiciatis quas quidem quisquam recusandae. Aut culpa earum est explicabo fugit molestiae nesciunt placeat recusandae tenetur vel. Eveniet illum modi perferendis voluptatibus!</p>
+                </div>
+                <div class="card-footer">
+                    <button type="button" class="btn btn-primary btn-sm ">Get Details</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------footer section------------------->
+
+
+<footer class="page-footer font-italic cyan">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8 p-4">
+                <h4>About Easy Search</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae dolor fugiat inventore libero nam, obcaecati omnis, recusandae reiciendis tempore ullam veritatis voluptate. Adipisci architecto aspernatur corporis dolore dolorem eligendi explicabo harum, illo incidunt iste iure magni modi nam nulla odio, pariatur quam quibusdam quod ratione repellendus suscipit voluptas voluptatum.</p>
+            </div>
+            <div class="col-md-4 mt-md-5 mt-sm-2">
+                <div class="text-center">
+                    <a href="https://www.facebook.com/" target="_blank" class="fb-ic p-2">
+                        <i class="fab fa-facebook-f fa-sm white-text mr-md-5 fa-2x"></i>
+                    </a>
+                    <a href="https://twitter.com/login?lang=en" target="_blank" class="tw-ic p-2">
+                        <i class="fab fa-twitter fa-sm white-text mr-md-5 fa-2x"></i>
+                    </a>
+                    <a class="gplus-ic p-2">
+                        <i class="fab fa-google-plus-g fa-sm white-text mr-md-5 fa-2x"></i>
+                    </a>
+                    <a class="ins-ic p-2">
+                        <i class="fab fa-instagram fa-sm white-text mr-md-5 fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center">copy right @ CLEARTITLE.COM
+    </div>
+</footer>
+
+<!------------footer ends------------>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- BODY ENDS -->
+    <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/mdb.min.js"></script>
+<script src="CLEAR%20TITLE.js"></script>
+</body>
+</html>
